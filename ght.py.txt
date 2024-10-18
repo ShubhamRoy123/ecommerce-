@@ -1,0 +1,13 @@
+from tkinter import*
+electronic=Tk()
+
+#entry box
+entry=Entry(electronic)
+entry.place(x=150,y=20)
+
+
+#button
+btn=Button(electronic,text="search")
+btn.place(x=500,y=10)
+
+electronic.mainloop()
